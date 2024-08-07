@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+    color: rgb(219, 58, 219);
+
+}
+
+header {
+    background: lightgreen;
+    color: black;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    background-color: rgb(143, 45, 45);
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1rem;
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.75rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background:#db3131;
+}
+
+footer {
+    background: aqua;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .social-media li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+footer .social-media li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social-media li a:hover {
+    text-decoration: underline;
+    background-color: rgb(47, 47, 217);
+}
